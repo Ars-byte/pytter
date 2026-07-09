@@ -4,6 +4,10 @@ A terminal-based internet speed test with a live TUI dashboard — measures ping
 
 ![status](https://img.shields.io/badge/status-active-brightgreen) ![python](https://img.shields.io/badge/python-3.8%2B-blue)
 
+## Preview
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c8d98676-5ae8-4250-8048-f73c0e2f32a0" />
+
+
 ## Features
 
 - **Live dashboard** — animated ping/download/upload readout rendered with `curses`, updated in real time.
