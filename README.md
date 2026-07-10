@@ -30,7 +30,7 @@ A terminal-based internet speed test with a live TUI dashboard — measures ping
 ## Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Ars-byte/pytter.git
 cd pytter
 ```
 
