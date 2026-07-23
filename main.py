@@ -1,20 +1,16 @@
 import sys
 import time
 import curses
-
 from src.backend.speedtest import SpeedTester, SpeedResult
 from src.frontend.tui import TUI
 
-
 def parse_args():
     return "-hideip" in sys.argv
-
-
+    
 def main(stdscr):
     hide_ip = parse_args()
     tui = TUI(stdscr, hide_ip=hide_ip)
     tester = SpeedTester()
-
     phase = ["idle"]
     status = ["Starting..."]
     result = [SpeedResult()]
@@ -71,7 +67,6 @@ def main(stdscr):
     else:
         tui.draw_dashboard("Cancelled", result[0], "idle", 0, tick[0])
         time.sleep(2)
-
 
 if __name__ == "__main__":
     try:
